@@ -9,3 +9,4 @@ socialShare = false
 post.copyright = false
 comment= false
 post.reward= false
+build.writeStats = true

@@ -3,3 +3,6 @@ languageCode = 'en-us'
 title = 'Coding Master'
 theme = 'hugo-theme-bootstrap'
 enableEmoji = true
+
+[build]
+    writeStats = true
