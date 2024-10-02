@@ -1,0 +1,11 @@
+poweredBy = false
+rss = false
+searchBar = false
+toc= false
+# sidebar.taxonomiesToggleArchives = false
+# sidebar.taxonomiesToggle = false
+sidebar.collapsed = true
+socialShare = false
+post.copyright = false
+comment= false
+post.reward= false
