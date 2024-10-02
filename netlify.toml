@@ -8,7 +8,7 @@
   GO_VERSION = "1.17.7"
 
 [context.production]
-  command = "npm install && hugo --minify"
+  command = "npm install && hugo --gc --minify"
 
 [context.production.environment]
   HUGO_ENV = "production"
