@@ -1,17 +1,5 @@
 [build]
-  publish = "public"
-
-[build.environment]
-  NODE_VERSION = "17.6.0"
-  HUGO_VERSION = "0.101.0"
-  HUGO_ENABLEGITINFO = "true"
-  GO_VERSION = "1.17.7"
-
-[context.production]
-  command = "npm install && hugo --gc --minify"
-
-[context.production.environment]
-  HUGO_ENV = "production"
+  publish = "dist"
 
 [[headers]]
   for = "/*"
@@ -28,5 +16,5 @@
 
 [[redirects]]
   from = "/*"
-  to = "/en/404.html" # Replace the "en" to your default language code if "defaultContentLanguageInSubdir" is enabled, otherwise use "/404.html" instead.
+  to = "/en/404.html"  # Adjust this if you're using a different default language.
   status = 404
